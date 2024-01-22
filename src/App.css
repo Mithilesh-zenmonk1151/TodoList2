@@ -1,0 +1,155 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@600&family=Poppins:wght@300&family=Ubuntu:wght@500&display=swap');
+
+* {
+  font-family: 'Poppins', sans-serif;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background: #114e9e;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.App {
+  text-align: center;
+  
+}
+
+h1 {
+ 
+  margin-bottom: 0.5rem;
+  font-size: 1.75rem;
+  font-family: 'Ubuntu', sans-serif;
+  color: #112D4E;
+  
+}
+
+.todo-wrapper {
+  background: #f0f0f7;
+  margin-top: 5rem;
+  padding: 2rem;
+  border-radius: 5px;
+}
+
+.TodoForm {
+  width: 100%;
+  margin-bottom: 1rem;
+  background: #DBE2EF;
+  font-family: 'Ubuntu', sans-serif;
+  color: #112D4E;
+  padding: 15px;
+}
+
+.todo-input {
+  outline: none;
+  background: none;
+
+  padding: 0.5rem 1rem;
+  width: 300px;
+  color: #141313;
+  background-color: #DBE2EF;
+  border: #DBE2EF;
+  color: #7B7B7B;
+font-family: 'Ubuntu';
+font-size: 20px;
+font-style: normal;
+font-weight: 400;
+line-height: normal;
+}
+.todo-input1{
+  height: 40px;
+  outline: none;
+  background: none;
+  border: 1px solid #19191a;
+  padding: 0.5rem 1rem;
+  font-size: 12px;
+  width: 300px;
+  color: #131111;
+  background-color: #DBE2EF;
+  border-radius: 10px;
+  border: #DBE2EF;
+
+}
+.udate-btn{
+  margin-left: 20px;
+}
+
+.todo-input::placeholder {
+  color: #0f0e0e4d;
+  font-size: 20px;
+  font-family: 'Ubuntu';
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+
+.todo-btn {
+  background: #d1ccdf;
+  color: #fff;
+  border: none;
+  padding: 0.55rem;
+  cursor: pointer;
+}
+
+.Todo {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background: #DBE2EF;
+  
+  padding: 0.75rem 1rem;
+  border-radius: 5px;
+  margin-bottom: 1rem;
+}
+
+.fa-trash {
+  margin-left: 0.75rem;
+}
+
+.incompleted {
+  color: #1b1717;
+  cursor: pointer;
+  color: #000;
+font-family: 'Ubuntu';
+font-size: 20px;
+font-style: normal;
+font-weight: 400;
+line-height: normal;
+}
+
+.completed {
+  color: #9975f5;
+  text-decoration: line-through;
+  cursor: pointer;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  font-family: 'Ubuntu';
+}
+
+.edit-icon,
+.delete-icon {
+  cursor: pointer;
+}
+ 
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
